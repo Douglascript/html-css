@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body {
+    background-color: #E8E7C2;
+}
+
+header {
+    background-image: linear-gradient( to top, #053E1A, #0E5A2F, #1F8B4E);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+    padding: 2px;
+
+    border-radius: 5px;
+}
+
+
+header > h1 {
+    text-align: center;
+}
+
+header > nav {
+   
+    margin: auto auto 5px 5px;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > nav > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px;
+}
+
+header > nav > a:hover {
+    color: #000000;
+}
+
+main {
+    background-color: aliceblue;
+    width: 80%;
+
+    margin: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main > h1 {
+    font-family: idroid;
+    color: #053E1A;
+    font-weight: 100;
+}
+
+main > picture {
+    display: flex;
+    justify-content: center;
+}
+
+main > iframe {
+    display: flex;
+    margin: auto;
+}
+
+main > h2.titulos2 {
+    font-family: idroid;
+    color: #053E1A;
+    background-image: linear-gradient( to right, #1F8B4E, #ffffff);
+    font-weight: 100;
+}
+
+main > p > a.links {
+    background-color: #81E5B0;
+    text-decoration: none;
+    color: #053E1A;
+    font-weight: 600;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+
+    margin: auto;
+}
+
+main > section > h2 {
+    width: 100%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #0E5A2F;
+
+}
+
+ul {
+    background-color: #259e5a;
+
+}
+
+footer {
+    background-color: #053E1A;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer > p {
+    padding: 3px;
+    margin: 0px;
+}
+
+ul > p > a {
+    text-decoration: none;
+    color: #053E1A;
+    font-weight: 600;
+}
+
+ul > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
